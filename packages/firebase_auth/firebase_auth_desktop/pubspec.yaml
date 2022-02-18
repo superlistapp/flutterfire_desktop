@@ -30,9 +30,6 @@ flutter:
   plugin:
     implements: firebase_auth
     platforms:
-      macos:
-        dartPluginClass: FirebaseAuthDesktop
-        pluginClass: none
       linux:
         dartPluginClass: FirebaseAuthDesktop
         pluginClass: none
