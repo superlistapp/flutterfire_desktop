@@ -77,6 +77,9 @@ class API {
         requestUri: requestUri,
         postBody: 'id_token=$providerIdToken&'
             'providerId=$providerId',
+        autoCreate: true,
+        returnSecureToken: true,
+        returnIdpCredential: true,
       ),
     );
 
